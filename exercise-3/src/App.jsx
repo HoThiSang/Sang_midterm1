@@ -18,9 +18,11 @@ function App() {
     <div id="app">
       <h1>PNV Team !!</h1>
       <p>Here are some PNV trainers and educators, do you know them?</p>
-      {ALL_PNV_TEACHERS.map((user, index)=>(
+      {
+        ALL_PNV_TEACHERS.map((user, index)=>(
           <User key={index} user={user} />
-      ))}
+      ))
+      }
     </div>
   );
 }

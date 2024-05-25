@@ -1,9 +1,10 @@
-export default function Place() {
+export default function Place(props) {
+  const { id, title,  image:{src, alt} } = props ;
   return (
-    <li key="the place id" className="place-item">
+    <li key={id} className="place-item">
       <button>
-        <img src="the place image src" alt="the place image alt" />
-        <h3>"the place title"</h3>
+        <img src={src} alt={alt} />
+        <h3>{title}</h3>
       </button>
     </li>
   );
