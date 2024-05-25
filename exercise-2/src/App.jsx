@@ -12,7 +12,7 @@ export const myData = {
   title: "PN Trainer"
 };
 
-// TODO Edit the User component code to be able to display DIFFERENT users !
+
 export function User(props) {
   const {firstName, lastName, title} = props;
   return (

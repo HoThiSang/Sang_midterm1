@@ -6,7 +6,6 @@ export const userData = {
   title: "PN React JS Killer", // feel free to replace the title value
 };
 
-// Edit the User component code to output the userData data
 export function User() {
   return (
     <div id="user" data-testid="user">
