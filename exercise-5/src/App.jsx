@@ -13,7 +13,7 @@ function App() {
             {
               USER_INFORMATION.map((user, index)=> (
                 <CardItem 
-                    id={index}
+                    key={index}
                     name = {user.name}
                     title = {user.title}
                     description= {user.description}
